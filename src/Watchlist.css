@@ -1,0 +1,44 @@
+.WatchlistMain .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #FFF;
+    width: 165px;
+}
+
+.WatchlistMain .header button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: darkcyan;
+    color: #FFF;
+    border: 2px solid darkcyan;
+}
+
+.WatchlistMain .header button:hover {
+    background-color: darkslategrey;
+    border: 2px solid darkslategrey;
+    cursor: pointer;
+}
+
+.WatchlistMain .theList li {
+    color: #333;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+
+    transition: background-color .2s ease-out;
+}
+
+.WatchlistMain .theList li:hover{
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+ul.theList {
+    padding: 0;
+}
+
+
