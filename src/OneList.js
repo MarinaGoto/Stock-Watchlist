@@ -22,7 +22,7 @@ class OneList extends React.Component{
             <div className="text_line"> {this.props.stockvalue}</div>
             <div className="text_line">{this.props.stocknumber}</div>
             <div className={`text_line ${this.props.stockdelta > 0 ? "pos_value" : "neg_value" }`} >  {this.props.stockdelta}%</div>
-            <div href="#"  onClick={ () => { this.props.removeStudent(this.props.i) } }className="button_remove_stock w-button">-</div>
+            <div href="#"  onClick={ () => { this.props.removeItemList(this.props.i) } }className="button_remove_stock w-button">-</div>
         </div>
     )}
 }
