@@ -1,10 +1,5 @@
-body{
-    padding: 50px;
-    background-color: aquamarine;
-    font-family: sans-serif;
-}
-
-#container {
-    display: flex;
-    justify-content: flex;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
